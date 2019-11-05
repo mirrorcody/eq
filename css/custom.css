@@ -1,1 +1,19 @@
-/* your styles go here */
+/*
+* ==========================================================
+*     LIGHTBOX STYLING 
+* ==========================================================
+*/
+.itemcontainer{
+width:200px;
+height:200px;
+overflow:hidden;
+}
+.itemcontainer img{
+max-width:200px;
+}
+.itemcontainer img:hover {
+filter:alpha(opacity=60)
+-moz-opacity:0.6;
+opacity:0.6;
+cursor:pointer;
+}
