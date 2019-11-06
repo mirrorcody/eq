@@ -20,9 +20,11 @@
 .tablecaption{
 	}
 .col-1{
-	width:33%;
+	background-color:white;
+	width:300px;
+	display:inline-block;
 }
 .col-2{
-	width:33%;
-	position:relative;
+	width:300px;
+	display:inline-block;
 }
