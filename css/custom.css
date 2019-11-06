@@ -4,12 +4,12 @@
 * ==========================================================
 */
 .itemcontainer {
-	width:200px;
-	height:200px;
+	width:300px;
+	height:300px;
 	overflow:hidden;
 }
 .itemcontainer img{
-	max-width:200px;
+	max-width:300px;
 }
 .itemcontainer img:hover {
 	filter:alpha(opacity=60)
@@ -17,5 +17,12 @@
 	opacity:0.6;
 	cursor:pointer;
 }
+.tablecaption{
+	}
 .col-1{
-width:33%}
+	width:33%;
+}
+.col-2{
+	width:33%;
+	position:relative;
+}
