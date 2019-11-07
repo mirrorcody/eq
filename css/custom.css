@@ -1,32 +1,32 @@
 /*
-* ==========================================================
-*     LIGHTBOX STYLING 
-* ==========================================================
+*	LIGHTBOX STYLING 
+*==========================================================
 */
-.itemcontainer {
-	width:300px;
-	height:300px;
-	overflow:hidden;
-	background-color:red;
-}
-.itemcontainer img{
-	max-width:300px;
-	margin:auto;
-}
-.itemcontainer img:hover {
-	filter:alpha(opacity=60)
-	-moz-opacity:0.6;
-	opacity:0.6;
-	cursor:pointer;
-}
-.tablecaption{
-	}
-.col-1{
-	background-color:white;
-	width:300px;
-	display:inline-block;
-}
-.col-2{
-	width:300px;
-	display:inline-block;
-}
+		.itemcontainer {
+			width:350px;
+			height:300px;
+			overflow:hidden;
+			background-color:red;
+		}
+		.itemcontainer img{
+			max-width:350px;
+			margin:auto;
+		}
+		.itemcontainer img:hover {
+			filter:alpha(opacity=60)
+			-moz-opacity:0.6;
+			opacity:0.6;
+			cursor:pointer;
+		}
+		.tablecaption{
+			}
+		.col-1{
+			background-color:white;
+			width:33%px;
+			display:inline-block;
+		}
+		.col-2{
+			background-color:black;
+			width:33%;
+			display:inline-block;
+		}
