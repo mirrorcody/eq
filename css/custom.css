@@ -19,13 +19,17 @@
 			opacity:0.6;
 			cursor:pointer;
 		}
+		.block-contain{
+			float:left;
+			clear:both;
+		}
 		.tablecaption{
 			}
 		.col-1{
 			background-color:white;
 			width:350px;
 			display:inline-block;
-			float:left;
+			clear:both;
 		}
 		.col-2{
 			background-color:black;
