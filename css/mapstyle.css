@@ -14,4 +14,9 @@ width:100%;display: table-row;
     /*col*/
 .maptable-cell{
 display: table-cell;
-
+.mask a{
+display:none;	
+}
+.mask a:hover{
+display:block;
+}
