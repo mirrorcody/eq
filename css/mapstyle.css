@@ -14,9 +14,19 @@ width:100%;display: table-row;
     /*col*/
 .maptable-cell{
 display: table-cell;
-.mask a{
-display:none;	
+.mask{
+	position:relative;	
+	margin:auto;
+	width:100%;
 }
-.mask a:hover{
-display:block;
+.mask:before{
+	display:block;
+	position:absolute;	
+	margin:auto;
+	width:100%;
+	background-image:url(../img/temp/wmantonica.png)
+	z-index:1;
+}
+.mask:hover:before{
+	
 }
