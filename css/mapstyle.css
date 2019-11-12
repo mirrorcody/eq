@@ -1,0 +1,22 @@
+.maptable{
+display:table;
+width:100%;
+table-layout:fixed;
+border: 1px;
+text-align:center;
+background-image:url(../img/photos/worldmap.jpg) ;
+background-size:100% 1000px;
+}
+    /*tr*/
+.maptable-row{
+width:100%;display: table-row;
+}
+    /*col*/
+.maptable-cell{
+display: table-cell;
+.mask a{
+display:none;	
+}
+.mask a:hover{
+display:block;
+}
