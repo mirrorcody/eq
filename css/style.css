@@ -190,6 +190,7 @@ a.button:hover{background-color: #eee;color: #333;}
 	display: block;
 	width: 100%;
 	height: auto;
+	margin: auto;
 }
 .item-container .item-caption {
 	position: absolute;
@@ -226,6 +227,12 @@ border: 1px solid rgba(255, 255, 255, 0.7);bottom: 1em;content: '';left: 1em;opa
 	display: table-cell;
 	width: 100%;
 	height: 100%;
+	vertical-align: middle;
+}
+.item-caption-innerm {
+	display: table-cell;
+	width: 10%;
+	height: 10%;
 	vertical-align: middle;
 }
 .item-container .item-caption h3, .item-container .item-caption span{
