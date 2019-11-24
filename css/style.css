@@ -230,6 +230,12 @@ border: 1px solid rgba(255, 255, 255, 0.7);bottom: 1em;content: '';left: 1em;opa
 	vertical-align: middle;
 }
 .item-caption-innerm {
+	display: table-row;
+	width: 10%;
+	height: 10%;
+	vertical-align: middle;
+}
+.item-caption-innern {
 	display: table-cell;
 	width: 10%;
 	height: 10%;
