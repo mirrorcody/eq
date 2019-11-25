@@ -243,6 +243,7 @@ border: 1px solid rgba(255, 255, 255, 0.7);bottom: 1em;content: '';left: 1em;opa
 }
 .item-caption-innern a:hover{
 	cursor:pointer;
+	display:block;
 }
 .item-container .item-caption h3, .item-container .item-caption span{
 	display: block;
